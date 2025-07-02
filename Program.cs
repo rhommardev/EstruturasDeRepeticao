@@ -5,7 +5,8 @@ using System;
 
 int numero = 1;
 
-for (int contador = 1; contador <= 10; contador++)
+for (int contador = 0; contador <= 10; contador++)
 {
     Console.WriteLine($"{numero} x {contador} = {numero * contador}");
 }
+
