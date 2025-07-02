@@ -58,16 +58,16 @@ do
 
 //SEGUNDO EXEMPLO DO WHILE
 
-int soma = 0, numero = 0;
+int soma = 0, number = 0;
 
 do
 {
-    Console.WriteLine("Digite um numro (0 para sair): ");
-    numero = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Digite um numero (0 para sair): ");
+    number = Convert.ToInt32(Console.ReadLine());
 
-    soma += numero; //este operador é equivalente a soma = soma + numero;
+    soma += number; //este operador é equivalente a soma = soma + numero;
 
-} while (numero != 0);
+} while (number != 0);
 
 Console.WriteLine($" Total da soma dos numeros digitados é: {soma}");
 
