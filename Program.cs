@@ -52,5 +52,24 @@ do
     Console.WriteLine($"{contador4} execucao : {numero4} x {contador4} = {numero4 * contador4}");
     contador4++;
 } while (contador4 <= 10);
-//interrumpiendo el lazo do while usando break
+
 */
+
+
+//SEGUNDO EXEMPLO DO WHILE
+
+int soma = 0, numero = 0;
+
+do
+{
+    Console.WriteLine("Digite um numro (0 para sair): ");
+    numero = Convert.ToInt32(Console.ReadLine());
+
+    soma += numero; //este operador é equivalente a soma = soma + numero;
+
+} while (numero != 0);
+
+Console.WriteLine($" Total da soma dos numeros digitados é: {soma}");
+
+
+
