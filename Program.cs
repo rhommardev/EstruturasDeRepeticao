@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
 
-/*
+
 //usando FOR
 
 int numero = 1;
@@ -53,7 +53,7 @@ do
     contador4++;
 } while (contador4 <= 10);
 
-*/
+
 
 
 //SEGUNDO EXEMPLO DO WHILE
