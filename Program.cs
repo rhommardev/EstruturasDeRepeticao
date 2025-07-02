@@ -22,4 +22,20 @@ while (contador2 <= 10)
     contador2++;
 }
 
+//interrumpiendo  el lazo while usando break
 
+int numero3 = 2;
+int contador3 = 0;
+
+while (contador3 <= 10)
+{
+    Console.WriteLine($"{contador3} execucao : {numero3} x {contador3} = {numero2 * contador3}");
+    contador3++;
+
+    if (contador3 == 5)
+    {
+        Console.WriteLine("Interrumpiendo el lazo while");
+        break;
+    }
+
+}
