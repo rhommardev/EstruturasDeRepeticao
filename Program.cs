@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
 
+/*
 //usando FOR
 
 int numero = 1;
@@ -39,3 +40,17 @@ while (contador3 <= 10)
     }
 
 }
+
+//usando DO WHILE
+//su verificacion sera ejecutada al finaly en el bloque DO ejecutara independientemente de la condicion
+
+int numero4 = 3;
+int contador4 = 0;
+
+do
+{
+    Console.WriteLine($"{contador4} execucao : {numero4} x {contador4} = {numero4 * contador4}");
+    contador4++;
+} while (contador4 <= 10);
+//interrumpiendo el lazo do while usando break
+*/
